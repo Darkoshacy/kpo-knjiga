@@ -1,0 +1,11 @@
+# Privatni podaci i izvodi - nigde u projektu
+*.pdf
+!test_samples/uzorak_izvoda_otp.pdf  # Dozvoli samo ovaj jedan fajl za agenta
+
+# Generisani dokumenti
+*.docx
+
+# Python enviroment
+__pycache__/
+venv/
+.env
